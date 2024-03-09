@@ -33,9 +33,17 @@ The Metrocare Locum project addresses the challenges associated with managing re
 
 The project was built using the following technologies and tools:
 
-- **Svelte:** A modern JavaScript framework for building user interfaces.
-- **Django:** A high-level Python web framework used for the backend.
-- **Django Rest Framework:** An extension to Django for building RESTful APIs.
-- **PostgreSQL:** A powerful open-source relational database for data storage.
-- **HTML/CSS:** For structuring and styling the frontend.
+- **Svelte:** A modern JavaScript framework for building user interfaces. Svelte is known for its approach to building components that shift much of the work from the browser to the build step, resulting in highly efficient and lightweight applications.
+
+- **Django:** A high-level Python web framework used for the backend. Django follows the model-view-controller (MVC) architectural pattern and provides a robust set of tools for handling tasks like database migrations, authentication, and URL routing.
+
+- **Django Rest Framework:** An extension to Django for building RESTful APIs. This powerful toolkit simplifies the process of creating APIs, allowing you to easily serialize data, handle authentication, and perform CRUD (Create, Read, Update, Delete) operations.
+
+- **PostgreSQL:** A powerful open-source relational database for data storage. PostgreSQL is known for its advanced features, extensibility, and support for complex queries. It's a reliable choice for applications that require a scalable and ACID-compliant database.
+
+- **Heroku:** A cloud platform used to deploy the backend. Heroku simplifies the deployment process by providing a platform-as-a-service (PaaS) solution. It supports various programming languages and automates many aspects of application deployment, making it easier to focus on development.
+
+- **Netlify:** A cloud platform for hosting and deploying static websites and frontend applications. Netlify is often used for hosting the Svelte frontend. It offers features like continuous integration, automatic deployments, and serverless functions, making it a convenient choice for frontend development and deployment.
+
+With this stack, you have a powerful combination of technologies for building scalable and efficient web applications. Svelte handles the dynamic user interface on the client side, Django manages the backend logic, Django Rest Framework facilitates API development, PostgreSQL stores your data, Heroku hosts the backend, and Netlify hosts the Svelte frontend. This combination provides a solid foundation for building modern and responsive web applications.
 
